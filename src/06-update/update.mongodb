@@ -1,0 +1,28 @@
+use ("platzi_store")
+
+db.products.drop()
+
+
+db.products.insertMany([
+    {
+        _id: 1,
+        name: "producto 1",
+        price: 1000
+    },
+    {
+        _id: 2,
+        name: "producto 2",
+        price: 10345230
+    },
+    {
+        _id: 3,
+        name: "producto 3",
+        price: 10647
+    },
+    {
+        _id: 4,
+        name: "producto 4",
+        price: 34532
+    }
+
+])
