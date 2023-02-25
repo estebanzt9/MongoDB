@@ -26,3 +26,4 @@ db.products.insertMany([
     }
 
 ])
+
